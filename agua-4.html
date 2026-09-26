@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Água: o que é, ciclo, tipos, importância e em Moçambique</title>
+<meta name="description" content="Clique aqui, saiba o que é a água, conheça o ciclo hidrológico, os tipos de água, a importância do abastecimento e a situação em Moçambique.">
+<meta name="keywords" content="água, ciclo hidrológico, água potável, recursos hídricos, Moçambique, FIPAG, saneamento, geografia">
+<meta name="theme-color" content="#073453">
+<style>
+/* ===== Reset e base (Mundo Educação) ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f6f7fb;
+  color: #222;
+  line-height: 1.55;
+  font-size: 16px;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: #5fb9f5; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { width: min(1140px, 94%); margin-inline: auto; }
+
+/* ===== Header sticky (menu-superior) ===== */
+.menu-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  border-bottom: 1px solid #e3e8ef;
+  box-shadow: 0 1px 4px rgba(7, 52, 83, 0.06);
+}
+.menu-superior {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 64px;
+  padding: 0.35rem 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+  color: #073453;
+  flex-shrink: 0;
+}
+.logo:hover { text-decoration: none; }
+.logo-mark { width: 48px; height: 48px; flex-shrink: 0; }
+.logo-text { display: flex; flex-direction: column; line-height: 1.15; }
+.logo-text strong {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #073453;
+  letter-spacing: -0.02em;
+  font-family: system-ui, sans-serif;
+}
+.logo-text span {
+  font-size: 0.68rem;
+  color: #5fb9f5;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+.menu-items {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+  flex-wrap: wrap;
+}
+.menu-items a {
+  color: #427fa8;
+  font-size: 0.88rem;
+  font-weight: 500;
+  padding: 0.45rem 0.65rem;
+  border-radius: 6px;
+  font-family: system-ui, sans-serif;
+}
+.menu-items a:hover {
+  background: #eef6fc;
+  color: #073453;
+  text-decoration: none;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d5dee8;
+  border-radius: 20px;
+  padding: 0.35rem 0.75rem;
+  background: #f6f7fb;
+  min-width: 150px;
+}
+.search-box input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  width: 100%;
+  color: #333;
+}
+.search-box svg { width: 16px; height: 16px; color: #5fb9f5; flex-shrink: 0; }
+.hamburger {
+  display: none;
+  width: 40px; height: 40px;
+  border: 1px solid #d5dee8;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.hamburger span {
+  display: block;
+  width: 18px; height: 2px;
+  background: #073453;
+  border-radius: 1px;
+}
+
+/* ===== Breadcrumb ===== */
+.breadcrumb {
+  padding: 0.85rem 0 0.35rem;
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+  color: #6a7a8a;
+}
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 0.15rem; }
+.breadcrumb li:not(:first-child)::before {
+  content: "›";
+  margin-right: 0.45rem;
+  color: #9aa8b5;
+}
+.breadcrumb a { color: #5fb9f5; }
+
+/* ===== Título (estilo ME) ===== */
+.page-hero {
+  background: #fff;
+  border-radius: 8px 8px 0 0;
+  padding: 1.4rem 1.35rem 1.1rem;
+  margin-top: 0.5rem;
+}
+.tipo {
+  background-color: #5fb9f5;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: system-ui, sans-serif;
+  border-radius: 20px;
+  padding: 3px 15px;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  display: table;
+  width: fit-content;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+.page-hero h1 {
+  font-family: system-ui, sans-serif;
+  font-size: clamp(1.5rem, 3.2vw, 1.85rem);
+  color: #073453;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.7rem;
+}
+.page-hero .lead {
+  font-family: system-ui, sans-serif;
+  font-size: 18px;
+  color: #3a4a5a;
+  line-height: 1.55;
+  font-weight: 300;
+  max-width: 52rem;
+}
+.write-info {
+  margin-top: 0.9rem;
+  font-size: 0.82rem;
+  color: #7a8a9a;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+}
+
+/* ===== Conteúdo (content-text / conteudo ME) ===== */
+.content-text {
+  font-family: system-ui, sans-serif;
+  font-size: 19px;
+  background: #fff;
+  border-radius: 0 0 8px 8px;
+  padding: 0.25rem 1.35rem 2.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(7, 52, 83, 0.04);
+}
+@media (max-width: 768px) {
+  .content-text { font-size: 18px; padding-left: 1rem; padding-right: 1rem; }
+}
+.conteudo { color: #2a3540; line-height: 1.65; }
+.conteudo p { margin-bottom: 15px; }
+.conteudo strong { color: #073453; font-weight: 650; }
+.conteudo h2 {
+  font-family: system-ui, sans-serif;
+  font-size: 26px;
+  color: #073453;
+  margin: 30px 0 18px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+@media (max-width: 768px) {
+  .conteudo h2 { font-size: 23px; }
+}
+.conteudo h3 {
+  font-family: system-ui, sans-serif;
+  font-size: 22px;
+  color: #427fa8;
+  margin: 22px 0 12px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+@media (max-width: 768px) {
+  .conteudo h3 { font-size: 20px; }
+}
+.conteudo ul, .conteudo ol {
+  margin: 0 0 15px 25px;
+}
+.conteudo li { margin-bottom: 8px; }
+
+/* seta como no ME (→ tipos) */
+.conteudo h3.arrow {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.35rem;
+}
+.conteudo h3.arrow::before {
+  content: "→";
+  color: #5fb9f5;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* Resumo */
+.resumo-box {
+  background: #eef6fc;
+  border-left: 4px solid #5fb9f5;
+  border-radius: 0 8px 8px 0;
+  padding: 1.1rem 1.25rem;
+  margin: 1.25rem 0 1.5rem;
+}
+.resumo-box h2 {
+  margin-top: 0 !important;
+  margin-bottom: 12px !important;
+  font-size: 22px !important;
+}
+.resumo-box ul { margin-bottom: 0; }
+
+/* Figuras + rotator Pexels */
+.conteudo figure {
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #eef4f9;
+}
+.conteudo figure .rotator,
+.related-card .rotator {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  background: #dce8f2;
+}
+.related-card .rotator { aspect-ratio: 16/10; }
+.conteudo figure .rotator img,
+.related-card .rotator img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+.conteudo figure .rotator img.active,
+.related-card .rotator img.active { opacity: 1; }
+.conteudo figcaption {
+  font-size: 80%;
+  color: #6a7a8a;
+  text-align: center;
+  padding: 0.5rem 0.75rem 0.75rem;
+  font-family: system-ui, sans-serif;
+}
+.pexels-credit {
+  font-size: 0.72rem;
+  color: #8a9aaa;
+  text-align: right;
+  margin: 0.25rem 0 1rem;
+  font-family: system-ui, sans-serif;
+}
+.pexels-credit a { color: #5fb9f5; }
+
+/* ===== Vídeos YouTube (estilo ME video-wrapper) ===== */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  margin: 1.25rem auto 1.75rem;
+  aspect-ratio: 16/9;
+  background: #0a1a28;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(7, 52, 83, 0.12);
+}
+.video-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.video-label {
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  color: #6a7a8a;
+  text-align: center;
+  margin: -1rem 0 1.5rem;
+}
+
+
+/* Related */
+.related { margin: 2rem 0 0.5rem; }
+.related > h2 {
+  font-size: 22px !important;
+  margin-bottom: 1rem !important;
+}
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+.related-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e3e8ef;
+  transition: box-shadow 0.2s, transform 0.2s;
+  text-decoration: none;
+  display: block;
+}
+.related-card:hover {
+  box-shadow: 0 6px 20px rgba(7, 52, 83, 0.1);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.related-card .body { padding: 0.85rem 1rem 1.1rem; }
+.related-card .body .tag {
+  font-size: 0.7rem;
+  color: #5fb9f5;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  font-family: system-ui, sans-serif;
+}
+.related-card .body h3 {
+  font-size: 0.98rem !important;
+  color: #073453 !important;
+  margin: 0.3rem 0 0 !important;
+  font-weight: 650;
+  line-height: 1.35;
+  font-family: system-ui, sans-serif;
+}
+
+/* Exercícios */
+.exercicio {
+  background: #f8fafc;
+  border: 1px solid #e3e8ef;
+  border-radius: 8px;
+  padding: 1.15rem 1.25rem;
+  margin: 1rem 0;
+  font-size: 17px;
+}
+.exercicio .q-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #5fb9f5;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  font-family: system-ui, sans-serif;
+}
+.exercicio p { margin-bottom: 0.6rem; }
+.exercicio .opcoes { list-style: none; margin-left: 0; }
+.exercicio .opcoes li {
+  padding: 0.35rem 0.5rem;
+  border-left: 3px solid transparent;
+}
+.exercicio .opcoes li.correta {
+  border-left-color: #00a88a;
+  background: rgba(0, 168, 138, 0.06);
+}
+
+/* Footer */
+.site-footer {
+  background: #073453;
+  color: #c5d8e8;
+  padding: 2.5rem 0 1.25rem;
+  margin-top: 2rem;
+  font-family: system-ui, sans-serif;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.footer-brand { display: flex; gap: 0.75rem; align-items: flex-start; }
+.footer-brand .logo-mark { width: 44px; height: 44px; }
+.footer-brand strong { display: block; color: #fff; font-size: 1rem; margin-bottom: 0.35rem; }
+.footer-brand p { font-size: 0.85rem; line-height: 1.45; opacity: 0.85; max-width: 280px; }
+.footer-col h4 {
+  color: #5fb9f5;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.85rem;
+}
+.footer-col a {
+  display: block;
+  color: #c5d8e8;
+  font-size: 0.9rem;
+  padding: 0.25rem 0;
+}
+.footer-col a:hover { color: #fff; }
+.footer-bottom {
+  border-top: 1px solid rgba(95, 185, 245, 0.2);
+  padding-top: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+
+@media (max-width: 860px) {
+  .menu-items { display: none; }
+  .menu-items.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 64px; left: 0; right: 0;
+    background: #fff;
+    border-bottom: 1px solid #e3e8ef;
+    padding: 0.75rem 1rem 1rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  }
+  .hamburger { display: flex; }
+  .search-box { display: none; }
+  .footer-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .page-hero { padding-left: 1rem; padding-right: 1rem; }
+}
+</style>
+</head>
+<body>
+
+<header class="menu-bar">
+  <div class="container menu-superior">
+    <a href="#inicio" class="logo" aria-label="Água — início">
+      <svg class="logo-mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <linearGradient id="dropGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#7dd3fc"/>
+            <stop offset="55%" stop-color="#0ea5e9"/>
+            <stop offset="100%" stop-color="#0369a1"/>
+          </linearGradient>
+        </defs>
+        <path fill="url(#dropGrad)" d="M32 6C32 6 14 28 14 40a18 18 0 0 0 36 0C50 28 32 6 32 6z"/>
+        <path fill="rgba(255,255,255,0.45)" d="M26 22c-2 4-3.5 8-3.5 11.5a9.5 9.5 0 0 0 6 8.8c-4-1.5-7-5.5-7-10.3C21.5 28 24 24 26 22z"/>
+        <path fill="none" stroke="#073453" stroke-width="2.2" stroke-linecap="round" d="M10 54c4-3 8-3 12 0s8 3 12 0 8-3 12 0 8 3 12 0"/>
+        <path fill="none" stroke="#5fb9f5" stroke-width="1.8" stroke-linecap="round" d="M14 59c3.5-2.5 7-2.5 10.5 0s7 2.5 10.5 0 7-2.5 10.5 0 7 2.5 10.5 0"/>
+      </svg>
+      <div class="logo-text">
+        <strong>Água &amp; Vida</strong>
+        <span>Recursos Hídricos</span>
+      </div>
+    </a>
+    <nav class="menu-items" id="menu-items" aria-label="Navegação principal">
+      <a href="#o-que-e">O que é</a>
+      <a href="#ciclo">Ciclo</a>
+      <a href="#tipos">Tipos</a>
+      <a href="#importancia">Importância</a>
+      <a href="#tratamento">Tratamento</a>
+      <a href="#mocambique">Moçambique</a>
+      <a href="#exercicios">Exercícios</a>
+    </nav>
+    <div class="search-box" role="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="search" placeholder="Pesquisar…" aria-label="Pesquisar">
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main class="container" id="inicio">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#inicio">Geografia</a></li>
+      <li>Água</li>
+    </ol>
+  </nav>
+
+  <article>
+    <header class="page-hero">
+      <span class="tipo">Geografia · Meio Ambiente</span>
+      <h1>Água: o que é, ciclo, tipos, importância e em Moçambique</h1>
+      <p class="lead">A <strong>água</strong> é a substância essencial à vida e um dos principais recursos naturais estudados pela geografia. Conheça o ciclo hidrológico, os tipos de água, o tratamento para consumo humano e o abastecimento em Moçambique.</p>
+      <div class="write-info">
+        <span>Atualizado em 26 set. 2026</span>
+        <span>Geografia · Recursos hídricos</span>
+      </div>
+    </header>
+
+    <div class="content-text">
+      <div class="conteudo">
+
+        <p>A <strong>água</strong> é uma prática (e um recurso) central na organização do espaço geográfico: condiciona o povoamento, a agricultura, a indústria e a saúde pública. Quimicamente é o composto H₂O; geograficamente, é o conjunto de massas de água doce e salgada que circulam no planeta pelo <strong>ciclo hidrológico</strong>. A fixação das populações e o crescimento das cidades tornaram o acesso à água potável e ao saneamento um tema estratégico em todo o mundo.</p>
+
+        <p>Atualmente, a gestão da água envolve captação, tratamento, distribuição, cobrança tarifária e proteção de bacias hidrográficas. Em países como Moçambique, o abastecimento urbano combina investimento público, gestão de património e, em várias fases históricas, operadores privados ou empresas regionais.</p>
+
+        <div class="resumo-box" id="resumo">
+          <h2>Resumo sobre água</h2>
+          <ul>
+            <li>A água é essencial à vida e cobre cerca de 71% da superfície terrestre, mas a água doce facilmente utilizável é uma fração pequena do total.</li>
+            <li>O ciclo hidrológico inclui evaporação, transpiração, condensação, precipitação, infiltração e escoamento.</li>
+            <li>Distinguem-se água salgada, água doce, água potável e águas residuais, entre outras classificações de uso.</li>
+            <li>O tratamento em estações (ETA) garante qualidade microbiológica e físico-química para consumo humano.</li>
+            <li>Em Moçambique, o setor urbano de água tem sido estruturado com fundos de investimento e património (como o antigo FIPAG) e políticas de expansão de redes.</li>
+            <li>A escassez relativa e as alterações climáticas reforçam a necessidade de uso racional e de investimento contínuo.</li>
+          </ul>
+        </div>
+
+        <!-- VÍDEO 1 — Videoaula principal -->
+        <h2>Videoaula sobre água</h2>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/vW5-xrV3Bq4?rel=0&modestbranding=1&playsinline=1"
+            title="O Ciclo da Água (Ciclo Hidrológico) — ANA"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"
+            loading="lazy"></iframe>
+        </div>
+        <p class="video-label">Videoaula: O ciclo da água (Agência Nacional de Águas)</p>
+
+<h2 id="o-que-e">O que é a água?</h2>
+        <p>A água é um <strong>composto químico inorgânico</strong> formado por dois átomos de hidrogénio e um de oxigénio. À temperatura ambiente apresenta-se sobretudo no estado líquido, mas também existe como gelo e como vapor. Na geografia, o estudo da água abrange a sua distribuição espacial, a disponibilidade por região, os conflitos de uso e as infraestruturas de abastecimento e saneamento.</p>
+        <p>Do ponto de vista económico, a água integra o <strong>setor primário</strong> (quando associada a recursos naturais e extrativismo hídrico) e os <strong>serviços urbanos essenciais</strong>. Sem água em quantidade e qualidade adequadas, a urbanização, a indústria e a produção de alimentos ficam severamente limitadas.</p>
+        <p>A água também é um <strong>bem comum</strong> regulado por leis e instituições: bacias hidrográficas, outorgas de uso, tarifas e normas de qualidade definem quem pode captar, quanto e sob que condições. Por isso, estudar a água é estudar ao mesmo tempo natureza, técnica e sociedade.</p>
+
+        <figure>
+          <div class="rotator" data-rotator data-pexels-query="freshwater river lake stream nature" data-need="10">
+            <img class="active" src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=1000&q=80" alt="Rio de água doce" loading="eager">
+          </div>
+          <figcaption>Água doce em ambiente natural — recurso vital e limitado.</figcaption>
+        </figure>
+
+        <h2>Vídeo relacionado: a viagem da água</h2>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/hH299LBmtnY?rel=0&modestbranding=1&playsinline=1"
+            title="Como é feito: a água potável — do oceano à torneira"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"
+            loading="lazy"></iframe>
+        </div>
+        <p class="video-label">Produção de água potável e dessalinização — documentário educativo</p>
+
+        <h2 id="ciclo">História e ciclo da água</h2>
+        <p>O conhecimento sobre o ciclo da água desenvolveu-se ao longo da história, desde observações antigas até à hidrologia moderna. Hoje sabemos que a quantidade total de água no planeta é aproximadamente constante: o que muda é a <strong>forma</strong> e o <strong>lugar</strong> em que se encontra.</p>
+        <p>Os processos principais do <strong>ciclo hidrológico</strong> são:</p>
+        <ul>
+          <li><strong>Evaporação</strong> — o Sol aquece a superfície de oceanos, rios e solos húmidos; a água passa ao estado de vapor.</li>
+          <li><strong>Transpiração</strong> — as plantas libertam vapor pelas folhas (em conjunto com a evaporação, fala-se em evapotranspiração).</li>
+          <li><strong>Condensação</strong> — o vapor sobe, arrefece e forma gotículas que constituem as nuvens.</li>
+          <li><strong>Precipitação</strong> — chuva, neve ou granizo devolvem a água à superfície.</li>
+          <li><strong>Infiltração</strong> — parte da água penetra no solo e recarrega aquíferos.</li>
+          <li><strong>Escoamento superficial</strong> — outra parte corre até rios, lagos e oceanos, reiniciando o ciclo.</li>
+        </ul>
+        <p>Esse movimento redistribui a água no tempo e no espaço, mas <strong>não multiplica de forma ilimitada</strong> a água doce disponível para consumo. A poluição, o desmatamento e as alterações no regime de chuvas podem reduzir a qualidade e a previsibilidade do recurso.</p>
+
+        <!-- VÍDEO 2 -->
+        <h2>Vídeo: ciclo da água para estudar</h2>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/KZTRy6KL7_c?rel=0&modestbranding=1&playsinline=1"
+            title="O ciclo da água para crianças — Smile and Learn"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"
+            loading="lazy"></iframe>
+        </div>
+        <p class="video-label">Explicação animada das etapas do ciclo hidrológico</p>
+
+        <h2 id="tipos">Quais são os tipos de água?</h2>
+        <p>Os tipos de água estão associados à salinidade, à origem e ao uso. Na escola e na geografia costuma-se destacar:</p>
+
+        <h3 class="arrow">Água salgada</h3>
+        <p>Concentra-se nos oceanos e mares (cerca de <strong>97%</strong> da água do planeta). Não é potável sem dessalinização. A dessalinização por osmose reversa é tecnologicamente viável, mas exige muita energia e investimento, sendo mais comum em regiões áridas com recursos financeiros.</p>
+
+        <h3 class="arrow">Água doce</h3>
+        <p>Está em glaciares, neve, aquíferos, rios e lagos. A maior parte da água doce está congelada nos polos e nas montanhas; a fração líquida e acessível em rios e lagos é pequena. É o foco do abastecimento público e da irrigação.</p>
+
+        <h3 class="arrow">Água potável</h3>
+        <p>É a água que cumpre <strong>normas de qualidade</strong> para consumo humano (limites para microrganismos, metais, compostos químicos, etc.). Em geral passa por estação de tratamento de água (ETA) antes de chegar às torneiras.</p>
+
+        <h3 class="arrow">Águas subterrâneas</h3>
+        <p>Acumulam-se em aquíferos. São fundamentais em regiões com pouca chuva regular. A exploração excessiva pode baixar o nível freático e, em zonas costeiras, favorecer a intrusão de água salgada.</p>
+
+        <h3 class="arrow">Águas residuais</h3>
+        <p>São as águas usadas (domésticas, industriais, pluviais contaminadas) que precisam de tratamento em ETAR antes de regressar ao meio ambiente. O saneamento completo liga abastecimento e tratamento de efluentes.</p>
+
+        <figure>
+          <div class="rotator" data-rotator data-pexels-query="lake reservoir freshwater blue water" data-need="10">
+            <img class="active" src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=1000&q=80" alt="Lago de água doce" loading="lazy">
+          </div>
+          <figcaption>Reservatórios naturais e artificiais armazenam água doce para múltiplos usos.</figcaption>
+        </figure>
+
+        <h2>Vídeo relacionado: água e meio ambiente</h2>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/gay5kvb0D0I?rel=0&modestbranding=1&playsinline=1"
+            title="O ciclo da água na natureza"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"
+            loading="lazy"></iframe>
+        </div>
+        <p class="video-label">Ciclo da água na natureza — educação ambiental</p>
+
+        <!-- VÍDEO 3 -->
+        <h2>Vídeo: o ciclo hidrológico em profundidade</h2>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/IdsrDn1C_oE?rel=0&modestbranding=1&playsinline=1"
+            title="Você foi enganado sobre o ciclo da água | Minuto da Terra"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"
+            loading="lazy"></iframe>
+        </div>
+        <p class="video-label">Minuto da Terra — visão atualizada do ciclo e da água subterrânea</p>
+
+<h2 id="importancia">Qual a importância da água?</h2>
+        <p>A água é de <strong>grande importância alimentícia, estratégica e económica</strong>. Sem ela não há agricultura estável, indústrias de transformação em larga escala nem cidades saudáveis. Os países e regiões que controlam fontes seguras de água têm vantagem geopolítica e de desenvolvimento.</p>
+        <p>Na saúde pública, o acesso a água potável e a saneamento reduz doenças diarreicas, cólera, parasitoses e outros problemas ligados à contaminação. Na economia, a água gera emprego na operação de sistemas, na construção de redes e na manutenção de estações de tratamento.</p>
+        <p>Além disso, a água sustenta <strong>ecossistemas</strong>: rios, zonas húmidas e mangais dependem de caudais e de qualidade mínima. A sobre-exploração ou a poluição degradam esses sistemas e, a médio prazo, o próprio serviço de abastecimento.</p>
+
+        <h2 id="tratamento">Como a água chega à torneira?</h2>
+        <p>O caminho típico da água potável urbana inclui:</p>
+        <ol>
+          <li><strong>Captação</strong> — em rio, lago, barragem ou furo (poço).</li>
+          <li><strong>Adução</strong> — transporte até à estação de tratamento.</li>
+          <li><strong>Tratamento (ETA)</strong> — coagulação, floculação, decantação, filtração e desinfeção (por exemplo com cloro).</li>
+          <li><strong>Reservação</strong> — armazenamento em tanques elevados ou soterrados.</li>
+          <li><strong>Distribuição</strong> — rede de tubos até aos consumidores, com pressão controlada.</li>
+          <li><strong>Medição e faturação</strong> — contadores e tarifas que financiam a operação.</li>
+        </ol>
+        <p>Perdas na rede (fugas, ligações irregulares, erros de medição) podem consumir uma parte elevada da água produzida. Por isso a gestão eficiente inclui deteção de fugas, reabilitação de condutas e educação para o uso racional.</p>
+
+        <!-- VÍDEO 4 -->
+        <h2>Vídeo: produção de água potável</h2>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/ynqm4bFqwrM?rel=0&modestbranding=1&playsinline=1"
+            title="Como é produzida a água que chega às nossas torneiras — Águas de Portugal"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"
+            loading="lazy"></iframe>
+        </div>
+        <p class="video-label">Estação de tratamento de água (ETA) — do manancial à torneira</p>
+
+        <h2 id="mocambique">Água e abastecimento em Moçambique</h2>
+        <p><strong>Moçambique</strong> possui importantes bacias hidrográficas e uma longa costa no Oceano Índico. O abastecimento urbano de água foi, durante décadas, estruturado em torno de um quadro de gestão que separava o dono dos ativos (investimento e património) da operação do serviço.</p>
+        <p>O <strong>FIPAG</strong> (Fundo de Investimento e Património do Abastecimento de Água), criado no final dos anos 1990, teve como mandato gerir o programa de investimento público, o património dos sistemas e a relação com operadores, visando serviço contínuo, expansão de redes e tarifas equilibradas. Em fases posteriores, o setor passou por reorganizações (incluindo sociedades regionais de águas e, mais recentemente, reformas institucionais no subsector de água e saneamento).</p>
+        <p>Os desafios atuais incluem:</p>
+        <ul>
+          <li>Expandir cobertura em bairros periurbanos de crescimento rápido.</li>
+          <li>Reduzir a água não faturada e melhorar a eficiência energética das bombagens.</li>
+          <li>Garantir qualidade e continuidade, inclusive em períodos de seca ou após cheias.</li>
+          <li>Proteger mananciais e planear investimentos resilientes ao clima.</li>
+          <li>Assegurar sustentabilidade financeira sem excluir famílias de baixo rendimento.</li>
+        </ul>
+
+        <figure>
+          <div class="rotator" data-rotator data-pexels-query="ocean coastline africa water waves" data-need="10">
+            <img class="active" src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1000&q=80" alt="Oceano e costa" loading="lazy">
+          </div>
+          <figcaption>Moçambique: costa extensa e bacias hidrográficas estratégicas para o abastecimento.</figcaption>
+        </figure>
+
+        <!-- VÍDEO 5 -->
+        <h2>Vídeo: importância da água potável</h2>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/QmZ1LfGRPqU?rel=0&modestbranding=1&playsinline=1"
+            title="Ciclo da água — o que precisa de saber"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"
+            loading="lazy"></iframe>
+        </div>
+        <p class="video-label">Dados, chuva e tipos de ciclo — reforço para estudo</p>
+
+
+        <h2>Vídeo relacionado: dados sobre o ciclo da água</h2>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/mA8-NyiHEkU?rel=0&modestbranding=1&playsinline=1"
+            title="Vamos Nessa: O Ciclo Da Água"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"
+            loading="lazy"></iframe>
+        </div>
+        <p class="video-label">Evaporação, condensação, precipitação e infiltração</p>
+
+        <h2 id="curiosidades">Curiosidades sobre a água</h2>
+        <ul>
+          <li>Menos de 1% da água do planeta está facilmente disponível como água doce líquida em rios e lagos.</li>
+          <li>O corpo humano adulto é composto, em média, por mais de 60% de água.</li>
+          <li>A mesma molécula de água pode circular no ciclo hidrológico durante milhares de anos.</li>
+          <li>Uma falha prolongada no abastecimento urbano afeta higiene, escolas, hospitais e comércio em poucos dias.</li>
+          <li>A ONU reconhece o acesso a água potável e a saneamento como direito humano.</li>
+          <li>Em muitas cidades africanas, a expansão da rede compete com o crescimento informal de bairros — planear à frente é decisivo.</li>
+        </ul>
+
+        <p class="pexels-credit"><a href="https://www.pexels.com" target="_blank" rel="noopener">Photos provided by Pexels</a></p>
+
+        <h2 id="exercicios">Exercícios resolvidos sobre água</h2>
+
+        <div class="exercicio">
+          <div class="q-label">Questão 1</div>
+          <p>O aumento da disponibilidade de água potável numa cidade, sem aumentar a captação bruta, pode resultar principalmente de:</p>
+          <ul class="opcoes">
+            <li>A) Evaporação forçada dos reservatórios.</li>
+            <li class="correta">B) Redução de perdas na rede e uso mais eficiente.</li>
+            <li>C) Transformação de toda a água salgada costeira sem energia.</li>
+            <li>D) Interrupção do ciclo hidrológico na bacia.</li>
+          </ul>
+          <p><strong>Resolução:</strong> B. Combater fugas e desperdício aumenta a água que de facto chega aos consumidores.</p>
+        </div>
+
+        <div class="exercicio">
+          <div class="q-label">Questão 2</div>
+          <p>No ciclo hidrológico, a etapa em que o vapor forma nuvens chama-se:</p>
+          <ul class="opcoes">
+            <li>A) Precipitação.</li>
+            <li>B) Infiltração.</li>
+            <li class="correta">C) Condensação.</li>
+            <li>D) Escoamento superficial.</li>
+          </ul>
+          <p><strong>Resolução:</strong> C. A condensação ocorre quando o vapor arrefece e forma gotículas.</p>
+        </div>
+
+        <div class="exercicio">
+          <div class="q-label">Questão 3</div>
+          <p>A água potável distribuída nas cidades deve, em regra:</p>
+          <ul class="opcoes">
+            <li>A) Vir diretamente de qualquer ribeira sem controlo.</li>
+            <li class="correta">B) Cumprir normas de qualidade após tratamento adequado.</li>
+            <li>C) Ser apenas água mineral engarrafada.</li>
+            <li>D) Conter sal em proporção oceânica.</li>
+          </ul>
+          <p><strong>Resolução:</strong> B. A potabilidade depende de padrões sanitários e de monitorização.</p>
+        </div>
+
+        <section class="related">
+          <h2 class="title-space medium">Artigos relacionados</h2>
+          <div class="related-grid">
+            <a class="related-card" href="#ciclo">
+              <div class="rotator" data-rotator data-pexels-query="rain clouds weather water cycle" data-need="8">
+                <img class="active" src="https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=600&q=80" alt="Chuva" loading="lazy">
+              </div>
+              <div class="body">
+                <div class="tag">Geografia</div>
+                <h3>Ciclo hidrológico em detalhe</h3>
+              </div>
+            </a>
+            <a class="related-card" href="#tratamento">
+              <div class="rotator" data-rotator data-pexels-query="drinking water tap urban supply" data-need="8">
+                <img class="active" src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=600&q=80" alt="Água na torneira" loading="lazy">
+              </div>
+              <div class="body">
+                <div class="tag">Saneamento</div>
+                <h3>Tratamento e distribuição urbana</h3>
+              </div>
+            </a>
+            <a class="related-card" href="#mocambique">
+              <div class="rotator" data-rotator data-pexels-query="drought climate water scarcity dry" data-need="8">
+                <img class="active" src="https://images.unsplash.com/photo-1500673922987-e212871fec22?w=600&q=80" alt="Escassez" loading="lazy">
+              </div>
+              <div class="body">
+                <div class="tag">Moçambique</div>
+                <h3>Abastecimento e gestão pública</h3>
+              </div>
+            </a>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <svg class="logo-mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="dropGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#7dd3fc"/>
+              <stop offset="55%" stop-color="#0ea5e9"/>
+              <stop offset="100%" stop-color="#0369a1"/>
+            </linearGradient>
+          </defs>
+          <path fill="url(#dropGrad2)" d="M32 6C32 6 14 28 14 40a18 18 0 0 0 36 0C50 28 32 6 32 6z"/>
+          <path fill="none" stroke="#5fb9f5" stroke-width="2" stroke-linecap="round" d="M10 54c4-3 8-3 12 0s8 3 12 0 8-3 12 0 8 3 12 0"/>
+        </svg>
+        <div>
+          <strong>Água &amp; Vida</strong>
+          <p>Conteúdo educativo sobre recursos hídricos, ciclo hidrológico e abastecimento. Organização e tipografia inspiradas em plataformas de educação.</p>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Secções</h4>
+        <a href="#o-que-e">O que é a água</a>
+        <a href="#ciclo">Ciclo hidrológico</a>
+        <a href="#tipos">Tipos de água</a>
+        <a href="#tratamento">Tratamento</a>
+        <a href="#mocambique">Moçambique</a>
+      </div>
+      <div class="footer-col">
+        <h4>Estudo</h4>
+        <a href="#resumo">Resumo</a>
+        <a href="#exercicios">Exercícios</a>
+        <a href="#curiosidades">Curiosidades</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Água &amp; Vida · Conteúdo educativo</span>
+      <span>8 videoaulas YouTube · Imagens via API Pexels</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  const btn = document.getElementById('hamburger');
+  const menu = document.getElementById('menu-items');
+  if (btn && menu) {
+    btn.addEventListener('click', () => {
+      const open = menu.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    menu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        menu.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+
+  const PEXELS_API_KEY = 'SXkZ68NSP0EZcMb6bBrHaSxXpGkzu7AOJKzdIhLco82bpXWFIgLz99au';
+  const usedPexelsIds = new Set();
+  const rotators = new Map();
+  const ROTATE_MS = 2000;
+
+  function shuffle(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+
+  async function fetchPexelsPhotos(query, perPage, page) {
+    if (!PEXELS_API_KEY) return [];
+    const url = 'https://api.pexels.com/v1/search?query=' + encodeURIComponent(query) +
+      '&per_page=' + (perPage || 15) + '&page=' + (page || 1) + '&orientation=landscape';
+    const res = await fetch(url, { headers: { Authorization: PEXELS_API_KEY, Accept: 'application/json' } });
+    if (!res.ok) return [];
+    const data = await res.json();
+    return (data.photos || []).map(ph => ({
+      id: ph.id,
+      src: (ph.src && (ph.src.large2x || ph.src.large || ph.src.medium)) || '',
+      alt: ph.alt || query
+    })).filter(x => x.src && x.id);
+  }
+
+  async function loadUniquePhotos(query, index, need) {
+    need = need || 10;
+    const pages = [(index % 10) + 1, ((index * 3) % 14) + 1, ((index * 7) % 18) + 1, ((index + 4) % 12) + 1];
+    const pool = [];
+    const seenLocal = new Set();
+    for (const page of pages) {
+      const batch = await fetchPexelsPhotos(query, 15, page);
+      for (const ph of batch) {
+        if (seenLocal.has(ph.id) || usedPexelsIds.has(ph.id)) continue;
+        seenLocal.add(ph.id);
+        pool.push(ph);
+      }
+      if (pool.length >= need) break;
+    }
+    const picked = [];
+    for (const ph of shuffle(pool)) {
+      if (usedPexelsIds.has(ph.id)) continue;
+      usedPexelsIds.add(ph.id);
+      picked.push(ph);
+      if (picked.length >= need) break;
+    }
+    return picked;
+  }
+
+  function createRotator(container) {
+    const images = Array.from(container.querySelectorAll('img'));
+    if (images.length < 2) return null;
+    let index = 0;
+    images.forEach((img, i) => img.classList.toggle('active', i === 0));
+    let timer = null;
+    let running = false;
+    function next() {
+      images[index].classList.remove('active');
+      index = (index + 1) % images.length;
+      images[index].classList.add('active');
+    }
+    function start() {
+      if (running || images.length < 2) return;
+      running = true;
+      timer = setInterval(next, ROTATE_MS);
+    }
+    function stop() {
+      running = false;
+      if (timer) clearInterval(timer);
+    }
+    return { start, stop };
+  }
+
+  function fillRotator(container, photos) {
+    if (!container || !photos || !photos.length) return;
+    const old = rotators.get(container);
+    if (old) old.stop();
+    container.innerHTML = '';
+    photos.forEach((ph, i) => {
+      const img = document.createElement('img');
+      img.src = ph.src;
+      img.alt = ph.alt || '';
+      img.loading = i === 0 ? 'eager' : 'lazy';
+      img.referrerPolicy = 'no-referrer';
+      if (i === 0) img.classList.add('active');
+      container.appendChild(img);
+    });
+    const r = createRotator(container);
+    if (r) {
+      rotators.set(container, r);
+      r.start();
+    }
+  }
+
+  async function loadAllPexels() {
+    const nodes = [...document.querySelectorAll('[data-rotator][data-pexels-query]')];
+    for (let i = 0; i < nodes.length; i++) {
+      const el = nodes[i];
+      const q = el.getAttribute('data-pexels-query') || 'water nature';
+      const need = parseInt(el.getAttribute('data-need') || '10', 10);
+      try {
+        const photos = await loadUniquePhotos(q, i, need);
+        if (photos.length >= 1) fillRotator(el, photos);
+      } catch (e) { console.warn('Pexels', q, e); }
+      await new Promise(r => setTimeout(r, 100));
+    }
+  }
+
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const r = rotators.get(entry.target);
+        if (!r) return;
+        if (entry.isIntersecting) r.start();
+        else r.stop();
+      });
+    }, { threshold: 0.2 });
+    document.querySelectorAll('[data-rotator]').forEach(el => io.observe(el));
+    setInterval(() => {
+      document.querySelectorAll('[data-rotator]').forEach(el => {
+        if (rotators.has(el)) io.observe(el);
+      });
+    }, 3000);
+  }
+
+  loadAllPexels();
+})();
+</script>
+</body>
+</html>
